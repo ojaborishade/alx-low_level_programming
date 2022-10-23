@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i = 1;
+	int i = 0;
 
 	while (i < 90)
 	{
@@ -17,7 +17,7 @@ int main(void)
 		}
 		putchar((i / 10) + '0');
 		putchar((i % 10) + '0');
-		putchar((i % 100) + '1');
+		putchar((i % 100) + '0');
 		if (i < 89)
 		{
 			putchar(',');
