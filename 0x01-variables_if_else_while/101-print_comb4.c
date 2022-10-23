@@ -17,7 +17,7 @@ int main(void)
 		}
 		putchar((i / 10) + '0');
 		putchar((i % 10) + '0');
-		putchar((i % 100) + '0');
+		putchar((i % 100) + '1');
 		if (i < 89)
 		{
 			putchar(',');
@@ -25,7 +25,7 @@ int main(void)
 		}
 		i++;
 	}
-	
+
 	putchar('\n');
 	return (0);
 }
