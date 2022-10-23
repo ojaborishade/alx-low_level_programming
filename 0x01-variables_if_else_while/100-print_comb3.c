@@ -13,11 +13,11 @@ int main(void)
 	{
 		if ((i % 10) < (i / 10))
 		{
-			i = i + 1 + 1 * (d / 10);
+			i = i + 1 + 1 * (i / 10);
 		}
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d < 98)
+		putchar((i / 10) + '0');
+		putchar((i % 10) + '0');
+		if (i < 98)
 		{
 			putchar(',');
 			putchar(' ');
