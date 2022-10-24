@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
 * main -  reset_to_98 - To change the value at a memory address.
@@ -9,7 +10,7 @@ int main(void)
 {
 	int n;
 
-	n = 402;
+	n = 98;
 	printf("n=%d\n", n);
 	reset_to_98(&n);
 	printf("n=%d\n", n);
