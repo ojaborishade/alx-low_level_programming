@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
 * main -  reset_to_98 - To change the value at a memory address.
