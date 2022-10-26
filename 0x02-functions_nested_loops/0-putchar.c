@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
-* main - prints _putchar followed by a new line
-*
-* int _putchar == function
-* (int _putchar) ==char type text to print
-*
-* Return: 0
-*/
+ * main - Entry point
+ * 
+ * int _putchar == funtion
+ * (int _putchar) ==char type text to print
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
