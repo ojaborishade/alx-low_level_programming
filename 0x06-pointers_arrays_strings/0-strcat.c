@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcat - append string scr to dest
- * @ dest: string to be appended
- * @scr: source string
- * Return: a str
+ * _strcat - append string src to dest
+ * @ dest: parameter one
+ * @src: second parameter
+ * Return: two concat strings
  */
 
-char *_strcat(char *dest, char *scr)
+char *_strcat(char *dest, char *src)
 {
 	int len = 0, i;
 
@@ -16,9 +16,9 @@ char *_strcat(char *dest, char *scr)
 
 	for (i = 0; src[i] != '\0'; i++)
 	{
-		dest[len] = scr[i];
-		len += 1;
+		dest[len] = src[i];
+		len += i;
 	}
-	dest = '\0';
+	dest[len] = '\0';
 	return (dest);
 }
