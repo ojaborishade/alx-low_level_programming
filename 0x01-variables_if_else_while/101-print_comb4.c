@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - prints all possible different combination of 3 digit numbers.
+* main - prints all possible different combination of three  digit numbers,
+* in ascending order, separated by a comma and starts with a new line
 * Return: 0
 */
 
@@ -26,4 +27,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
