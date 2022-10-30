@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_table - prints the timestable of the input,
- * starting with 0
+ * print_times_table - prints the n times table, starting with 0
  * @n: the value of timestable to be printed
  */
 
