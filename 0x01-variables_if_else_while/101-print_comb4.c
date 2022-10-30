@@ -7,25 +7,23 @@
 
 int main(void)
 {
-	int i = 0;
+	int digit1, digit2, digit3;
 
-	while (i < 90)
+	for (digit1 = 0; digit1 < 8; digit1++)
 	{
-		if ((i % 10) < (i / 10))
+		for (digit2 = digt1 + 1; digit2 < 9; digit2++)
 		{
-			i = i + 1 + 1 * (i / 10);
-		}
-		putchar((i / 10) + '0');
-		putchar((i % 10) + '0');
-		putchar((i % 100) + '0');
-		if (i < 89)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		i++;
-	}
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+			{
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
 
-	putchar('\n');
-	return (0);
-}
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
+				putchar(',');
+			       putchar(' ');
+			}
+		}
+	}
+}	
