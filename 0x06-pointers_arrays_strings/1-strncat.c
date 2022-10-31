@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _strcat - joins two str with n bytes
+ * _strncat - joins two str with n bytes
  * @dest: copy to
  * @src: copy from
  * @n: num of char to be copied
  * Return: dest
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int l;
