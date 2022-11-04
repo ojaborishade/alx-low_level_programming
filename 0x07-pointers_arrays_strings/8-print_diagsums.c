@@ -19,7 +19,7 @@ void print_diagsums(int *a, int size)
 	for (j = 0; j < size; j++)
 	{
 		k = (j * size) + (size - 1 - j);
-		n += *(a + P);
+		n += *(a + k);
 	}
-	printf("%i, %\n", l, n);
+	printf("%i, %i\n", l, n);
 }
