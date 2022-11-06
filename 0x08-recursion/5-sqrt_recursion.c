@@ -12,13 +12,13 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt -> recursive square root
+ * _sqrt1 - recursive square root
  * @n: num
  * @i: iterator
  * Return: a num
  */
 
-int _sqrt(int n, int i)
+int _sqrt1(int n, int i)
 {
 	int square = i * i;
 
@@ -27,5 +27,5 @@ int _sqrt(int n, int i)
 	if (square == n)
 		return (i);
 
-	return (_sqrt(n, i + 1));
+	return (_sqrt1(n, i + 1));
 }
