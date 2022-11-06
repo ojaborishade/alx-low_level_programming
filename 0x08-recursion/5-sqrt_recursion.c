@@ -8,7 +8,7 @@
 
 int _sqrt_recursion(int n)
 {
-	return (_sqrt1(n, 1));
+	return (sqrt1(n, 1));
 }
 
 /**
@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
  * Return: a num
  */
 
-int _sqrt1(int n, int i)
+int sqrt1(int n, int i)
 {
 	int square = i * i;
 
@@ -27,5 +27,5 @@ int _sqrt1(int n, int i)
 	if (square == n)
 		return (i);
 
-	return (_sqrt1(n, i + 1));
+	return (sqrt1(n, i + 1));
 }
