@@ -29,7 +29,7 @@ int str_checker(char *s1, char *s2, int i, int l)
  * Return: 1 if strings are identical
  */
 
-int wildcmp(char *s1, *s2)
+int wildcmp(char *s1, char  *s2)
 {
 	return (str_checker(s1, s2, 0, 0));
 }
