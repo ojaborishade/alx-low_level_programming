@@ -38,7 +38,7 @@ int main(int argc, char **argv)
 			}
 		}
 		if (total == 1)
-			count;
+			count++;
 	}
 	else
 	{
